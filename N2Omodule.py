@@ -173,7 +173,7 @@ def N2Omd(mdFile):
         
   
     # folder style links
-        regexPath =     compile("^\[(.+)\]\(([^\(]*)(?:\.md|\.csv)\)$")
+        regexPath =     compile("\[(.+)\]\(([^\(]*)(?:\.md|\.csv)\)")
         regexUID =      compile("%20\w{32}")
         regex20 =       compile("%20")
         regexSlash =    compile("\s\/")
